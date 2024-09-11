@@ -4,7 +4,7 @@ class Solution {
 		String k1 = Integer.toBinaryString(k);
 		int diff = Math.abs(n1.length() - k1.length());
 		if (n1.length() == k1.length()) {
-        return m1(n1, k1); 
+        return m1(n1, k1);
 			
 		} else if (n1.length() > k1.length()) {
 			for (int i = 0; i < diff; i++) {
