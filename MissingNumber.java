@@ -7,4 +7,4 @@ class Solution {
 		}
 		return Math.abs(tot-n);
     }
-}
+}     
