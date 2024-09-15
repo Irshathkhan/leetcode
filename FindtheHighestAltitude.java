@@ -5,7 +5,7 @@ class Solution {
         for(int i=0;i<gain.length;i++){
             sum = sum + gain[i];
             if(sum>res){
-                res = sum;
+                res = sum; 
             }
         }
         return res;
